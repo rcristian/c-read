@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "Selection Reader",
+  "description": "Increases the size of the selected text so you can read better",
+  "version": "1.0",
+
+  "icons": { "48": "img/key_exclamation.png"
+           },
+
+  "background": {
+	"scripts": ["js/cread.js"]
+  },
+
+  "permissions": [
+	"contextMenus",
+	"tabs"
+  ]
+}
+
+
