@@ -5,8 +5,10 @@
   "description": "Increases the size of the selected text so you can read better",
   "version": "1.0",
 
-  "icons": { "48": "img/key_exclamation.png"
-           },
+  "icons": { "16": "img/c-read-ico-16.png",
+             "48": "img/c-read-ico-48.png",
+             "128": "img/c-read-ico-128.png"
+  },
 
   "background": {
 	"scripts": ["js/cread.js"]

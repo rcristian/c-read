@@ -13,5 +13,5 @@ function readSelection(info, tab) {
 	chrome.windows.create({'url': 'cread.html', 'type': 'popup', 'width': w, 'height': h, 'left': left, 'top': top} , send_selection);
 }
 
-chrome.contextMenus.create({"title": "read!", "contexts": ["selection"], "onclick": readSelection});
+chrome.contextMenus.create({"title": "Read", "contexts": ["selection"], "onclick": readSelection});
 
